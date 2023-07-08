@@ -5,7 +5,7 @@
 	"scripts": {
 		"develop": "gatsby develop",
 		"start": "gatsby develop",
-		"build": "gatsby build && mv public ../public",
+		"build": "gatsby build",
 		"clean": "gatsby clean",
 		"serve": "gatsby serve"
 	},
