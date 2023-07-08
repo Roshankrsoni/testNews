@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'theme-ui'
-import SVG from 'react-inlinesvg'
-import gatsbySVG from '../../assets/Gatsby-Logo.svg'
+// import SVG from 'react-inlinesvg'
+// import gatsbySVG from '../../assets/Gatsby-Logo.svg'
 
 const styles = {
   link: {
@@ -28,8 +28,8 @@ const PoweredByGatsby = () => (
     rel='noopener'
     sx={styles.link}
   >
-    Powered By
-    {gatsbySVG && <SVG src={gatsbySVG} />}
+    Developed with ❤️ by RoshanKrSoni
+    {/* {gatsbySVG && <SVG src={gatsbySVG} />} */}
   </Link>
 )
 
